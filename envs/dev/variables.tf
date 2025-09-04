@@ -7,7 +7,7 @@ variable "name" {
 variable "location" {
   description = "Azure region"
   type        = string
-  default     = "eastus"
+  default     = "southeastasia"
 }
 
 variable "kubernetes_version" {
